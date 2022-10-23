@@ -44,7 +44,7 @@ __Dispatch305__ is a service that helps dispatchers to communicate with both dri
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/Ceci-Aguilera/dispatch305_react_frontend.git
+   git clone https://github.com/briltec/React_website_frontend.git
    ```
 
 1. Install Docker and Docker Compose
@@ -71,7 +71,7 @@ __Dispatch305__ is a service that helps dispatchers to communicate with both dri
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/Ceci-Aguilera/dispatch305_react_frontend.git
+   git clone https://github.com/briltec/React_website_frontend.git
    ```
 
 1. Install dependencies:
@@ -106,9 +106,9 @@ __Note:__ Before following these steps clone this repository. From now on the se
       └── dispatch305_react_frontend
    ```
 
-1. Assuming that your are at the __project_root__, clone the [Flask Backend API repository](https://github.com/Ceci-Aguilera/dispatch305_flask_backend_api):
+1. Assuming that your are at the __project_root__, clone the [Flask Backend API repository](https://github.com/briltec/React_website_frontend):
    ```sh
-      git clone https://github.com/Ceci-Aguilera/dispatch305_flask_backend_api.git
+      git clone https://github.com/briltec/React_website_frontend.git
    ```
    Now the __project_root__ folder should look like:
       ```sh
@@ -118,8 +118,8 @@ __Note:__ Before following these steps clone this repository. From now on the se
    ```
 
 - ### If Using Docker and Docker Compose
-   1. Copy the content of the docker-compose-connect.yml to a new file docker-compose.yml in the __project_root__. The docker-compose-connect.yml file can be found at the root of this repository and also at the root of the [Flask Backend API repository](https://github.com/Ceci-Aguilera/dispatch305_flask_backend_api) (Either file is fine to copy).
-   1. Follow the instruction to configure the environment variables of the __Flask__ backend API that can be found in the section __Install (Run) with Docker__ in the Readme.md of the [Flask Backend API repository](https://github.com/Ceci-Aguilera/dispatch305_flask_backend_api)
+   1. Copy the content of the docker-compose-connect.yml to a new file docker-compose.yml in the __project_root__. The docker-compose-connect.yml file can be found at the root of this repository and also at the root of the [Flask Backend API repository](https://github.com/briltec/React_website_frontend) (Either file is fine to copy).
+   1. Follow the instruction to configure the environment variables of the __Flask__ backend API that can be found in the section __Install (Run) with Docker__ in the Readme.md of the [Flask Backend API repository](https://github.com/briltec/React_website_frontend)
    1. Follow the instructions on the __Install (Run) with Docker__ section of this Readme.md to configure the environment variables for this repo. The only env variable needed is the Flask Backend url, which by default should be [http://localhost:5000](http://localhost:5000).
    __Note:__ Right now the __project_root__ should look like:
          ```sh
@@ -139,31 +139,11 @@ __Note:__ Before following these steps clone this repository. From now on the se
 
 
 - ### Running without Docker and Docker Compose
-   1. Follow the instructions of the __Installation without Docker__ section in the Readme.md of the  [Flask Backend API repository](https://github.com/Ceci-Aguilera/dispatch305_flask_backend_api) to configure and run the backend.
+   1. Follow the instructions of the __Installation without Docker__ section in the Readme.md of the  [Flask Backend API repository](https://github.com/briltec/React_website_frontend) to configure and run the backend.
    1. Follow the instructions of section __Installation without Docker__ of this Readme.md. Modify the REACT_APP_API_DOMAIN_NAME to be the url of the __Flask__ Backend API (by default it is [http://localhost:5050](http://localhost:5050)).
    1. Congratulations =) !!! the frontend app should be running in [localhost:3000](http://localhost:3000) while the backend is at [localhost:5050](http://localhost:5050)
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <a name="screenshots_frontend"></a>
 
 ## Screenshots of the Frontend React App
